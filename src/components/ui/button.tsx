@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // ToDo App Variants
+        todo: "bg-gradient-primary text-white shadow-soft hover:shadow-hover transform hover:scale-105 transition-all duration-300",
+        "todo-outline": "border-2 border-todo-primary text-todo-primary bg-transparent hover:bg-todo-primary hover:text-white transition-all duration-300",
+        "todo-success": "bg-todo-success text-white hover:bg-todo-success/90 shadow-soft",
+        "todo-danger": "bg-todo-danger text-white hover:bg-todo-danger/90 shadow-soft",
       },
       size: {
         default: "h-10 px-4 py-2",

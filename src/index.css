@@ -6,10 +6,40 @@
 All colors MUST be HSL.
 */
 
+/* ToDo App Design System */
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Modern ToDo App Color Palette */
+    --background: 250 100% 98%;
+    --foreground: 234 12% 25%;
+
+    /* Primary Colors - Purple/Blue Theme */
+    --todo-primary: 250 85% 60%;
+    --todo-primary-light: 250 100% 85%;
+    --todo-primary-dark: 250 85% 45%;
+    
+    /* Success & Status Colors */
+    --todo-success: 142 76% 45%;
+    --todo-success-light: 142 76% 85%;
+    --todo-warning: 38 92% 55%;
+    --todo-danger: 0 84% 60%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(250 85% 60%), hsl(260 85% 65%));
+    --gradient-background: linear-gradient(180deg, hsl(250 100% 98%), hsl(245 60% 96%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(250 20% 98%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsl(250 85% 60% / 0.1);
+    --shadow-card: 0 8px 32px hsl(250 60% 15% / 0.08);
+    --shadow-hover: 0 12px 40px hsl(250 85% 60% / 0.15);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    /* Original Design System */
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
